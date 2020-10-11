@@ -1,0 +1,308 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* section-1 start*/
+
+.section-1-main-box {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    background-image: url("../images/slide01.jpg");
+    color: #fff;
+}
+
+.navigation h2 {
+    margin-top: 25px;
+    margin-left: 15px;
+    float: left;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.silver {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.navigation a {
+    float: right;
+    margin-top: 25px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.navigation .fa {
+    margin-right: 10px;
+}
+
+.section-1-heading {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+
+.section-1-heading p {
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+.section-1-heading h1 {
+    margin: 2px;
+    font-weight: 300;
+    font-size: 70px;
+}
+
+.section-1-heading hr {
+    width: 45%;
+}
+
+
+/* section-2 start*/
+
+.full-width {
+    width: 100%;
+    background-color: #F2F2F2;
+    padding: 60px 0px;
+}
+
+.center {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left {
+    width: 45%;
+    background-color: #fff;
+    text-align: center;
+    float: left;
+}
+
+.left img {
+    width: 100%;
+}
+
+.section-2-main-box .head {
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-top: 35px;
+    color: gray;
+}
+
+.section-2-main-box hr {
+    width: 50%;
+}
+
+.section-2-main-box h3 {
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 3px;
+}
+
+.right {
+    width: 45%;
+    background-color: #fff;
+    text-align: center;
+    float: right;
+}
+
+.right img {
+    width: 100%;
+}
+
+.align-left {
+    text-align: left;
+    padding: 12px 35px;
+    color: gray;
+    line-height: 25px;
+}
+
+.section-2-main-box button {
+    height: 50px;
+    width: 150px;
+    background-color: #fff;
+    border: 2px solid #dbdbdb;
+    margin-bottom: 30px;
+}
+
+
+/* section-3 & section-4 start */
+
+.section-3-main-box {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+}
+
+.section-3-main-box,
+.section-4 {
+    text-align: center;
+    color: #fff;
+}
+
+.section-3-main-box p,
+.section-4 p {
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+.section-3-main-box hr,
+.section-4 hr {
+    width: 50%;
+}
+
+.section-3-main-box h1,
+.section-4 h1 {
+    margin-top: 2px;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+
+/* section-4 image part start here */
+
+.section-4 h1 {
+    color: #000;
+}
+
+.section-4 p {
+    color: gray;
+}
+
+.section-4 img {
+    width: 45%;
+    float: left;
+    margin: 25px 0px;
+    border: 11px solid #fff;
+}
+
+.section-4 .left {
+    margin-left: 6%;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #000;
+}
+
+.icon {
+    color: gray;
+    text-align: center;
+}
+
+.icon .fa {
+    margin-left: 17px;
+    font-size: 30px;
+}
+
+
+/* media query */
+
+
+/* for 1100px resolution */
+
+@media only screen and (max-width:1100px) {
+    /* section-4 */
+    .section-4 img {
+        width: 80%;
+        margin-left: 8%;
+    }
+    .section-4 .left {
+        margin-left: 8%;
+    }
+}
+
+
+/* for 900px resolution */
+
+@media only screen and (max-width:900px) {
+    /* section-2 */
+    .section-2-main-box hr {
+        width: 25%;
+    }
+    .left {
+        width: 100%;
+    }
+    .right {
+        margin-top: 50px;
+        width: 100%;
+    }
+    .align-left {
+        text-align: center;
+    }
+}
+
+
+/* for 750px resolution (fonts are resize)*/
+
+@media only screen and (max-width:750px) {
+    .navigation h2 {
+        font-size: 20px;
+    }
+    .silver {
+        font-size: 16px;
+    }
+    .navigation a {
+        font-size: 16px;
+    }
+    .section-1-heading h1 {
+        font-size: 40px;
+    }
+    /* section-2 */
+    .section-2-main-box .head {
+        font-size: 14px;
+    }
+    .section-2-main-box h3 {
+        font-size: 20px;
+    }
+    .align-left {
+        font-size: 14px;
+    }
+    /* section-3&section-4 (heading) */
+    .section-3-main-box p,
+    .section-4 p {
+        font-size: 14px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+    }
+    .section-3-main-box,
+    .section-4 {
+        font-size: 17px;
+    }
+    /* footer */
+    .icon .fa {
+        margin-left: 13px;
+        font-size: 20px;
+    }
+    .icon p {
+        font-size: 15px;
+    }
+}
+
+
+/* for 500px resolution heading*/
+
+@media only screen and (max-width:500px) {
+    .section-1-heading {
+        top: 20%;
+    }
+}
